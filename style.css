@@ -1,15 +1,36 @@
+body {
+    background-color: rgb(248, 252, 190);
+    padding: 15px;
+}
 h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 p {
     font-family: monospace;
 }
-body {
-    background-color: rgb(68, 5, 131);
-}
+
 em {
     font-style: italic;
 }
+
+.meu-nome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.foto-perfil{
+    padding: 10px;
+    background-color: rgb(250, 177, 68);
+}
+.description{
+    position: absolute;
+    float: left;
+    top: 155px;
+    left: 340px;
+    padding: 10px;
+}
 .list {
     font-size: 15px;
+}
+ul li:nth-child(odd){
+    background-color: rgb(247, 247, 68)
 }
