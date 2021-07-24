@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: monospace;
+}
+body {
+    background-color: rgb(68, 5, 131);
+}
+em {
+    font-style: italic;
+}
+.list {
+    font-size: 15px;
+}
